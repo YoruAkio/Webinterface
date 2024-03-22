@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "http://node.yoruakio.tech:25566/"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "http://node.yoruakio.tech:25566"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://api.yoruakio.tech/invite"
 
 export function get(path: string) {
